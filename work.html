@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work | Toby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 頂部固定導覽列 -->
+    <nav class="top-navbar">
+        <div class="nav-logo">
+            <img src="name.PNG" alt="Toby Lam" class="header-logo">
+        </div>
+<div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="experience.html" target="_blank">Experience</a>
+        <a href="work.html" target="_blank">Work</a>
+        <a href="contact.html" target="_blank">Contact</a>
+    </div>
+    </nav>
+
+    <!-- 作品區塊 -->
+    <main class="main-wrapper">
+        <section id="work" class="content-section">
+            <h2 class="section-title">My Artwork</h2>
+            <div class="filter-menu"> 
+                <button class="filter-btn active" data-target="all">All</button> 
+                <button class="filter-btn" data-target="painting">Paintings</button> 
+                <button class="filter-btn" data-target="video">Videos</button> 
+            </div> 
+            <main class="gallery-container" id="gallery-grid"></main> 
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
