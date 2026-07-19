@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toby Lam | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
 </head>
 <body>
 
@@ -36,7 +38,9 @@
   <div class="about-photo-container">
     <img src="i1.PNG" alt="About Me Photo" class="about-top-photo">
   </div>    
-<!-- About 區塊 -->
+<div class="container">
+
+        <!-- About 區塊 -->
 <section id="about" class="content-section">
   <h2 class="section-title">Toby Lam</h2>
   
@@ -61,7 +65,133 @@
   <p class="fade-in-text">In 2024, she founded Slow Pace Studio, a community-oriented space dedicated to placemaking and collective cultural engagement. Through exhibitions, reading groups, film screenings, concerts, and discussion gatherings, the studio explores the relationships between people and urban space. Her work examines how cities are practiced and negotiated between what is permitted and what is restricted, and the power dynamics embedded within these interactions.</p>
   
   <p class="fade-in-text">Through a series of spatial experiments, Slow Pace Studio seeks to cultivate alternative modes of exchange beyond monetary transactions. Using a skill-exchange model as a means of accessing the space, participants are encouraged to organize activities based on their interests, share their knowledge and abilities, join events hosted by others, use the space, or borrow tools. In doing so, the studio fosters a cycle of mutual learning and community building.</p>
-</section>
+
+    </section>
+
+    <section id="experience" data-bgcolor="#eacbd1" data-textcolor="#536fae">
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience | Toby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 頂部固定導覽列 -->
+    <nav class="top-navbar">
+        <div class="nav-logo">
+            <img src="name.PNG" alt="Toby Lam" class="header-logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">About</a>
+            <a href="experience.html">Experience</a>
+            <a href="work.html">Work</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- 內容區塊 -->
+    <main class="main-wrapper">
+        <section id="experience" class="content-section">
+            <h2 class="section-title">Experience</h2>
+            <div class="exp-card"> 
+                <h3>獨立藝術創作者 / 影像導演</h3> 
+                <p class="date">2024 - Present</p> 
+                <p>負責個人品牌經營，策劃多場線上/線下視覺藝術展示，專注於畫作與數位影片媒材整合。</p> 
+            </div> 
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
+    </section>
+
+    <section id="work" data-bgcolor="#536fae" data-textcolor="#eacbd1">
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work | Toby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 頂部固定導覽列 -->
+    <nav class="top-navbar">
+        <div class="nav-logo">
+            <img src="name.PNG" alt="Toby Lam" class="header-logo">
+        </div>
+<div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="experience.html" target="_blank">Experience</a>
+        <a href="work.html" target="_blank">Work</a>
+        <a href="contact.html" target="_blank">Contact</a>
+    </div>
+    </nav>
+
+    <!-- 作品區塊 -->
+    <main class="main-wrapper">
+        <section id="work" class="content-section">
+            <h2 class="section-title">My Artwork</h2>
+            <div class="filter-menu"> 
+                <button class="filter-btn active" data-target="all">All</button> 
+                <button class="filter-btn" data-target="painting">Paintings</button> 
+                <button class="filter-btn" data-target="video">Videos</button> 
+            </div> 
+            <main class="gallery-container" id="gallery-grid"></main> 
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    </section>
+
+    <section id="contact" data-bgcolor="#e3857a" data-textcolor="#f1dba7">
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Toby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 頂部固定導覽列 -->
+    <nav class="top-navbar">
+        <div class="nav-logo">
+            <img src="name.PNG" alt="Toby Lam" class="header-logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">About</a>
+            <a href="experience.html">Experience</a>
+            <a href="work.html">Work</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- 聯絡區塊 -->
+    <main class="main-wrapper">
+        <section id="contact" class="content-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>目前開放各類藝術合作、影像接案與聯絡，歡迎來信或隨時透過社群與我聊聊！</p> 
+            <a href="mailto:你的Email@example.com" class="contact-btn">Say Hello</a> 
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    </section>
+  </div>
+
+
 
     </div>
 
@@ -72,5 +202,25 @@
     </div>
 
     <script src="script.js"></script>
+
+       <script>
+gsap.registerPlugin(ScrollTrigger);
+document.querySelectorAll("section").forEach((section) => {
+  ScrollTrigger.create({
+    trigger: section,
+    start: "top center",
+    end: "bottom center",
+    onEnter: () => {
+      document.body.style.backgroundColor = section.dataset.bgcolor;
+      document.body.style.color = section.dataset.textcolor;
+    },
+    onEnterBack: () => {
+      document.body.style.backgroundColor = section.dataset.bgcolor;
+      document.body.style.color = section.dataset.textcolor;
+    }
+  });
+});
+</script>
+
 </body>
 </html>
